@@ -55,7 +55,7 @@ $route['translate_uri_dashes'] = FALSE;
 /**
  * Routes
  */
-//$route['default_controller'] 	 		 = 'HomeController';
+$route['default_controller'] 	 		 = 'HomeController';
 $route['api/auth/login']['GET']  		 = 'Api/Auth/Authentication/index_get';
 $route['api/auth/login']['POST'] 		 = 'Api/Auth/Authentication/index_post';
 $route['api/dashboard']['GET']   		 = 'Api/Dashboard/DashboardController/index_get';
